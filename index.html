@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Northstar Jobs is a front-end job portal demo for discovering technology roles.">
+  <title>Northstar Jobs — Find your next role</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Northstar Jobs home">
+      <span class="brand-mark" aria-hidden="true">N</span>
+      <span>Northstar Jobs</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a class="active" href="index.html" aria-current="page">Jobs</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">CURATED TECHNOLOGY ROLES</p>
+        <h1>Build what comes next.</h1>
+        <p>Explore a focused collection of roles across engineering, design, quality, and cybersecurity.</p>
+        <a class="button" href="#open-roles">Browse open roles</a>
+      </div>
+      <img src="images/employees.jpg" alt="Colleagues collaborating around a table">
+    </section>
+
+    <section class="jobs-section" id="open-roles" aria-labelledby="open-roles-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">OPPORTUNITIES</p>
+          <h2 id="open-roles-heading">Open roles</h2>
+        </div>
+        <p>Seven demo listings · Remote-friendly</p>
+      </div>
+
+      <div class="job-grid">
+        <article class="job-card">
+          <img src="images/frontEndDev.jpg" alt="">
+          <div><span>Engineering</span><h3>Front-End Developer</h3><p>Build accessible, responsive interfaces with modern JavaScript and component-based UI patterns.</p><a href="contact.html?role=Front-End%20Developer">Ask about this role</a></div>
+        </article>
+        <article class="job-card">
+          <img src="images/fullStackDev.jpg" alt="">
+          <div><span>Engineering</span><h3>Full-Stack Developer</h3><p>Own customer-facing features from database design and APIs through polished web experiences.</p><a href="contact.html?role=Full-Stack%20Developer">Ask about this role</a></div>
+        </article>
+        <article class="job-card">
+          <img src="images/softwareEngineer.jpg" alt="">
+          <div><span>Platform</span><h3>Software Engineer</h3><p>Design reliable services, improve system performance, and collaborate on maintainable architecture.</p><a href="contact.html?role=Software%20Engineer">Ask about this role</a></div>
+        </article>
+        <article class="job-card">
+          <img src="images/softwareSecurity.jpg" alt="">
+          <div><span>Security</span><h3>Application Security Analyst</h3><p>Review application risks, help teams adopt secure patterns, and strengthen delivery practices.</p><a href="contact.html?role=Application%20Security%20Analyst">Ask about this role</a></div>
+        </article>
+        <article class="job-card">
+          <img src="images/softwareTesting.jpg" alt="">
+          <div><span>Quality</span><h3>QA Automation Engineer</h3><p>Create meaningful automated tests and make release quality visible throughout the delivery cycle.</p><a href="contact.html?role=QA%20Automation%20Engineer">Ask about this role</a></div>
+        </article>
+        <article class="job-card">
+          <img src="images/webDesign.jpg" alt="">
+          <div><span>Design</span><h3>Product Designer</h3><p>Turn user needs into clear flows, thoughtful prototypes, and consistent interface systems.</p><a href="contact.html?role=Product%20Designer">Ask about this role</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="callout">
+      <p class="eyebrow">DON'T SEE YOUR ROLE?</p>
+      <h2>Introduce yourself anyway.</h2>
+      <p>Share the type of work you want to do and the strengths you would bring to a team.</p>
+      <a class="button secondary" href="contact.html">Contact us</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span data-current-year></span> Northstar Jobs. Portfolio demonstration only.</p>
+  </footer>
+</body>
+</html>
+

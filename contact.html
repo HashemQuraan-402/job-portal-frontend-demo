@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact form demonstration for Northstar Jobs.">
+  <title>Contact — Northstar Jobs</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Northstar Jobs home">
+      <span class="brand-mark" aria-hidden="true">N</span>
+      <span>Northstar Jobs</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="index.html">Jobs</a>
+      <a href="about.html">About</a>
+      <a class="active" href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-layout">
+      <div class="contact-copy">
+        <p class="eyebrow">START A CONVERSATION</p>
+        <h1>Tell us what you want to build.</h1>
+        <p>This form demonstrates client-side validation only. Nothing you enter is transmitted or stored.</p>
+        <dl>
+          <div><dt>Response</dt><dd>Demo interface only</dd></div>
+          <div><dt>Data handling</dt><dd>No network request</dd></div>
+          <div><dt>Technology</dt><dd>HTML, CSS, JavaScript</dd></div>
+        </dl>
+      </div>
+
+      <form id="contact-form" class="contact-form">
+        <div>
+          <label for="full-name">Full name</label>
+          <input id="full-name" name="fullName" type="text" autocomplete="name" minlength="2" maxlength="80" required>
+        </div>
+        <div>
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" autocomplete="email" maxlength="150" required>
+        </div>
+        <div>
+          <label for="role">Role of interest</label>
+          <input id="role" name="role" type="text" maxlength="100" placeholder="For example: Front-End Developer">
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" minlength="10" maxlength="1000" required></textarea>
+        </div>
+        <button class="button" type="submit">Submit demo form</button>
+        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span data-current-year></span> Northstar Jobs. Portfolio demonstration only.</p>
+  </footer>
+</body>
+</html>
+
