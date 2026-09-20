@@ -2,6 +2,20 @@
 
 A responsive, accessible job-portal interface built with plain HTML, CSS, and JavaScript.
 
+## Live demo
+
+[View the deployed Northstar Jobs site](https://hashemquraan-402.github.io/job-portal-frontend-demo/)
+
+## Screenshots
+
+### Job listings
+
+![Northstar Jobs homepage and job listings](docs/screenshots/jobs-homepage.png)
+
+### Contact form
+
+![Northstar Jobs contact form with a selected role](docs/screenshots/contact-form.png)
+
 ## Pages
 
 - `index.html` — hero, open-role cards, and calls to action
